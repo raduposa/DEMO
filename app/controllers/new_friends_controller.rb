@@ -2,7 +2,9 @@
 
 class NewFriendsController < ApplicationController
   def index
-  end  
+    @friend = Friend.new # Initialize a new instance of the Friend model
+    # Additional logic if needed...
+  end
   # Controller actions and logic here...
   end
   

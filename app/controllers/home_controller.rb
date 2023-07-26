@@ -8,7 +8,4 @@ class HomeController < ApplicationController
   def play
   end
   
-  def friend
-    
-  end
 end
